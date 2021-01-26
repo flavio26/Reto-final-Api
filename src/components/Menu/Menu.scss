@@ -1,0 +1,51 @@
+  /* Estilos del menu */
+  @import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+  
+  .main {
+    width:100%;
+    height: 10em;
+    color: white;
+    display: flex;
+    font-family: 'Sniglet', cursive;
+
+    .menu{
+        width: 100%;
+        background-color: #fd1e1e;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        padding:0.2em 0.8em;
+        color: white;
+
+        input{
+            height:1.6em;
+            padding:0.8em;
+            margin: 0.8em;
+            border-radius: 0.4em;
+            font-family: 'Sniglet', cursive;
+        }
+
+        select{
+            height:3.5em;
+            margin: 0.8em;
+            border-radius: 0.4em;
+            font-family: 'Sniglet', cursive;
+        }
+        
+        a{
+            all:unset;
+            //height: 1.6em;
+            padding: 0.8em;
+            border-radius: 4.4em;
+            cursor: pointer;
+            background-color: rgb(31, 29, 29);
+            transition: all 0.5s;
+            color: white;
+        }
+        a:hover{
+            background-color: rgb(196, 196, 196);
+            color: rgb(0, 0, 0);
+            
+        }
+    }
+}

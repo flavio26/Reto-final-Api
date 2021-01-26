@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+
+.movie{
+    display: flex;
+    flex-direction: column;
+    padding: 0.8em;
+    margin: 0.8em;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.3em;
+    background-color: #33282821;
+    font-family: 'Sniglet', cursive;
+    box-shadow: 5px 10px #888888;
+    img{
+        width: 80%;
+    }
+}
